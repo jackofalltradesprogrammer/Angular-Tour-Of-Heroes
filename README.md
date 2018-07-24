@@ -45,6 +45,19 @@ The component's `ngOnInit` lifecycle hook calls the `HeroService` method, not th
 You created a `MessageService` for loosely-coupled communication between classes.
 The `HeroService` injected into a component is created with another injected service, `MessageService`.
 
+## 6. Routing
+
+You added the Angular router to navigate among different components.
+You turned the `AppComponent` into a navigation shell with `<a>` links and a `<router-outlet>`.
+You configured the router in an `AppRoutingModule`.
+You defined simple routes, a redirect route, and a parameterized route.
+You used the `routerLink` directive in anchor elements.
+You refactored a tightly-coupled master/detail view into a routed detail view.
+You used router link parameters to navigate to the detail view of a user-selected hero.
+You shared the `HeroService` among multiple components.
+
+## 7. HTTP
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
