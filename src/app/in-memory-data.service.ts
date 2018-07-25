@@ -1,5 +1,4 @@
 import { InMemoryDbService } from 'angular-in-memory-web-api';
-import { createHostBinding } from '../../node_modules/@angular/compiler/src/core';
 
 export class InMemoryDataService implements InMemoryDbService{
     createDb() {
