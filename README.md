@@ -57,6 +57,14 @@ You used router link parameters to navigate to the detail view of a user-selecte
 You shared the `HeroService` among multiple components.
 
 ## 7. HTTP
+You're at the end of your journey, and you've accomplished a lot.
+
+You added the necessary dependencies to use HTTP in the app.
+You refactored `HeroService` to load heroes from a web API.
+You extended `HeroService` to support `post()`, `put()`, and `delete()` methods.
+You updated the components to allow adding, editing, and deleting of heroes.
+You configured an in-memory web API.
+You learned how to use observables.
 
 ## Further help
 
